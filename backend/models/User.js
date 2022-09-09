@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const {Schema} = mongoose;
 
 //Something like the reqirements in the database for the Users
 const UserSchema = new Schema({
